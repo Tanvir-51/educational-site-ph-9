@@ -1,0 +1,16 @@
+.header-container {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header-container > div {
+  color: white;
+}
+
+.anchor-style a {
+  text-decoration: none;
+  margin-right: 20px;
+  /* font-weight: 600; */
+  font-size: 20px;
+}
