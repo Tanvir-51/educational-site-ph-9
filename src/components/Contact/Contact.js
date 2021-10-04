@@ -4,6 +4,8 @@ import { Form, Button } from "react-bootstrap";
 
 const Contact = () => {
   return (
+    // creating a login form
+
     <div className=" p-5">
       <h2 className="fw-bold mb-5">Login To Your Account </h2>
 
@@ -37,6 +39,8 @@ const Contact = () => {
           Create Account Now
         </Button>
       </Form>
+
+      {/* creating newsletter form */}
 
       <div className="container subcription-style mt-5">
         <div className="sub-des">

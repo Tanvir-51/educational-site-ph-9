@@ -10,6 +10,7 @@ const Courses = () => {
       .then((data) => setCourses(data));
   }, []);
   return (
+    // course Tab elements
     <div>
       <h2 className="fw-bold m-5 text-success ">Course Offered</h2>
       <div className="course-container">

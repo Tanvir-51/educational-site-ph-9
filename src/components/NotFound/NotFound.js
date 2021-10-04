@@ -2,6 +2,7 @@ import React from "react";
 import "./NotFound.css";
 
 const NotFound = () => {
+  // in case of page failure or wrong address
   return (
     <div className="notFound-container">
       <h1 className="fw-bold">404</h1>

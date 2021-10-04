@@ -4,6 +4,7 @@ import "./Home.css";
 import pic2 from "../images/pic2.webp";
 
 const Home = () => {
+  // home page design
   const [courses, setCourses] = useState([]);
   useEffect(() => {
     fetch("./course.JSON")

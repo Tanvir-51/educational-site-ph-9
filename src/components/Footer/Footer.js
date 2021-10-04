@@ -3,6 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    // footer design
     <div className="Footer-container">
       <h2 className="fw-bold mb-4">
         Start Your Journey With Programming-School

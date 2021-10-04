@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
+    // all the links from the header section
     <div className="header-container bg-dark ">
       <div className=" anchor-style">
         <a className=" text-white fs-3" href="/home">

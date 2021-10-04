@@ -9,6 +9,8 @@ const About = () => {
       <div>
         <h1>Frequently Asked Questions</h1>
 
+        {/* used accordion from bootstrap */}
+
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>
