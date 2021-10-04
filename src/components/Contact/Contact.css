@@ -1,0 +1,22 @@
+.form-container {
+  margin: 0 auto;
+}
+.btn-style {
+  padding: 10px 50px;
+}
+.subcription-style {
+  padding: 50px;
+  background-color: #f1f1f1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+input {
+  height: 42px;
+  width: 350px;
+}
+.sub-des {
+  color: rgb(18, 18, 88);
+}
+.sub-header {
+  font-weight: 1000;
+}

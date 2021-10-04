@@ -7,6 +7,7 @@ import About from "./components/About/About";
 import Courses from "./components/Courses/Courses";
 import NotFound from "./components/NotFound/NotFound";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/course">
             <Courses></Courses>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

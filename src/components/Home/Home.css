@@ -1,3 +1,16 @@
+.home-container {
+  background-color: #d1d1d1;
+}
+
+.top-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 100px;
+}
+
+.img-style {
+  height: 400px;
+}
 .course-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

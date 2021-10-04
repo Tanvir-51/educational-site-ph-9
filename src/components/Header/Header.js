@@ -20,8 +20,8 @@ const Header = () => {
         <NavLink className=" text-white" to="/course">
           Course
         </NavLink>
-        <NavLink className=" text-white" to="/nf">
-          NF
+        <NavLink className=" text-white" to="/contact">
+          Contact Us
         </NavLink>
       </div>
     </div>

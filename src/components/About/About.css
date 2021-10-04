@@ -1,0 +1,9 @@
+.about-container {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.img-style {
+  height: 450px;
+}
