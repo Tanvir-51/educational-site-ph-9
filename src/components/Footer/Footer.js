@@ -13,6 +13,7 @@ const Footer = () => {
       <button className="btn btn-success mt-3 footer-btn">
         Purchase Now at $200
       </button>
+      <p className="mt-5">©2021 Tanvir All rights reserved </p>
     </div>
   );
 };

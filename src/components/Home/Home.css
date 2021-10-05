@@ -16,3 +16,10 @@
   grid-template-columns: repeat(3, 1fr);
   margin: 50px 0;
 }
+.course-btn {
+  color: white;
+  text-decoration: none;
+}
+.course-btn:hover {
+  color: white;
+}

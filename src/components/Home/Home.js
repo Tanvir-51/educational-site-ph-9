@@ -15,7 +15,7 @@ const Home = () => {
     <div>
       <div className="home-container pt-4">
         <div className="">
-          <h2>A Hub of Quality Courses </h2>
+          <h2 className="fs-1 fw-bold">A Hub of Quality Courses </h2>
           <h4>Instructed by the best individuals in their own fields</h4>
         </div>
         <div className="top-container">
@@ -28,7 +28,13 @@ const Home = () => {
               rather than from books "
             </h2>
 
-            <i className="fs-5">--A Wise Programmer</i>
+            <i className="fs-5 ">--A Wise Programmer</i>
+            <br />
+            <button className="mt-4 btn btn-primary btn-large text-white">
+              <a className="course-btn" href="/course">
+                Get Started
+              </a>
+            </button>
           </div>
         </div>
       </div>
